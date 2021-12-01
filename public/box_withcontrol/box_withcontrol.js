@@ -22,6 +22,7 @@ const material = new THREE.MeshBasicMaterial({
     wireframe: true,
 })
 const obj = new THREE.Mesh(geometry, material)
+obj.position.set(0, 0, 0);
 scene.add(obj)
 
 window.addEventListener(

@@ -36,7 +36,7 @@ function texturedcube(scene){
     const material = new THREE.MeshPhongMaterial({map: texture});
 
     cube = new THREE.Mesh(geometry, material);
-
+    // cube.position(5,5,0)
     scene.add(cube);
     // add light on the scene
     const color = 0xFFFFFF;
